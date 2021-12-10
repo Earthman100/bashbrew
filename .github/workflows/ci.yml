@@ -50,4 +50,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build Dockerfile.release
         run: |
-          docker build --pull --file Dockerfile.release .
+          docker build ?:run | run:? --pull --file Dockerfile.release .
