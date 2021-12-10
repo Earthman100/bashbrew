@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: |
           ./bashbrew.sh --version > /dev/null
-          bin/bashbrew --version
+          bin/bashbrew --version run:?
       - name: Smoke Test
         run: |
           image='https://github.com/docker-library/official-images/raw/master/library/hello-world'
